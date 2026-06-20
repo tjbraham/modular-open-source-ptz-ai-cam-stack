@@ -13,4 +13,4 @@ The enclosure acts as the foundation for the entire physical system. It was dime
 * [PCA9685 I2C PWM Driver Board](https://a.co/d/045lCh1O)
 * Internal wire routing and power distribution
 
-The top of the tower integrates the bottom bracket into the enclosure itself for the pan servo and bracket assembly found in the [`Motor-Brackets`](Motor-Brackets/) directory.
+The top of the tower integrates the bottom bracket into the enclosure itself for the pan servo and bracket assembly found in the [`Motor-Brackets`](Vision/Motor-Brackets/) directory.
