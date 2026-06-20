@@ -17,7 +17,7 @@ While the broader project handles the YOLO model training and AI logic, this sub
 * **Motors:** 2x [9g Miuzei 180° Metal Geared Servos](https://a.co/d/02dfNC2N) (Metal gears selected for durability during rapid tracking)
 * **Motor Driver:** [PCA9685 I2C PWM Driver Board](https://a.co/d/045lCh1O)
 * **Power:** 5V, ~1A external power supply for the PWM board (will come from Power Stack)
-* **Chassis:** Custom 3D printed PLA parts (see [`Motor-Brackets`](Vision/Motor-Brackets/README.md) and [`Enclosure`](Vision/Enclosure/README.md) directories) 
+* **Chassis:** Custom 3D printed PLA parts (see [`Motor-Brackets`](Motor-Brackets/README.md) and [`Enclosure`](Enclosure/README.md) directories) 
 
 ## Software Integration
 Video ingestion is handled via a custom GStreamer pipeline optimized for the Jetson architecture. It pulls raw memory buffers via the MIPI CSI-2 connection and converts them for fast, direct ingestion into the YOLO AI model, minimizing unnecessary processing overhead:
